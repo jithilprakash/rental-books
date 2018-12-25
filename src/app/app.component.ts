@@ -6,5 +6,11 @@ import { Component } from '@angular/core';
   styleUrls: ['./app.component.css']
 })
 export class AppComponent {
-  title = 'pract';
+  welcomeMessage ='This is a welcome message from app component ts';
+
+  clickhandler(){
+    alert('clicked')
+  }
+
+
 }
